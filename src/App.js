@@ -10,16 +10,17 @@ import './App.scss';
 
 
 function App() {
+  const baseUrl = "react-portfolio"
   return (
     <>
+    <Layout />
     <Routes>
-      <Route path="/" element={<Layout />} >
-        <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Route>
+      
+      <Route path={baseUrl + "/"} element={<Home />} />
+      <Route path={baseUrl + "/about"} element={<About />} />
+        <Route path={baseUrl + "/contact"} element={<Contact />} />
+        <Route path={baseUrl + "/portfolio"} element={<Portfolio />} />
+        <Route path={baseUrl + "/dashboard"} element={<Dashboard />} />
     </Routes>
     </>
   );
