@@ -17,16 +17,16 @@ const Sidebar = () => {
             <img className="sub-logo" src={LogoSubtitle} alt="Brayan Arias" />
         </Link>
         <nav className={showNav ? 'mobile-show' : ''}>
-            <NavLink exact="true" activeclassname="active" className="home-link" onClick={() => setShowNav(false)} to="/">
+            <NavLink exact="true" activeclassname="active" className="home-link" onClick={() => setShowNav(false)} to="react-portfolio/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" onClick={() => setShowNav(false)} to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" onClick={() => setShowNav(false)} to="react-portfolio/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="contact-link" onClick={() => setShowNav(false)} to="/contact">
+            <NavLink exact="true" activeclassname="active" className="contact-link" onClick={() => setShowNav(false)} to="react-portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            <NavLink exact="true" activeclassname="active" className="portfolio-link" onClick={() => setShowNav(false)} to="/portfolio">
+            <NavLink exact="true" activeclassname="active" className="portfolio-link" onClick={() => setShowNav(false)} to="react-portfolio/portfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             </NavLink>
             <FontAwesomeIcon 
