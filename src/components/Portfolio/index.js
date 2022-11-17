@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Loader from "react-loaders";
 import runBuddy from '../../assets/images/run-buddy.png'
+import supaHotFireSale from '../../assets/images/Screenshot (26).png'
 import tourismApp from '../../assets/images/Screenshot (36).png'
 import foodLovers from '../../assets/images/Screenshot (4).png'
 import AnimatedLetters from "../AnimatedLetters";
@@ -36,8 +37,8 @@ const Portfolio = () => {
                     </a>
                 </div>
                 <div className="images-container">
-                    <a href="https://belcross17.github.io/run-buddy/">
-                    <img className="image-box" src={runBuddy} alt="run-buddy website" />
+                    <a href="https://supa-hot-firesales.herokuapp.com/">
+                    <img className="image-box" src={supaHotFireSale} alt="Supa-Hot-FireSale" />
                     </a>
                 </div>
                 <div className="images-container">
